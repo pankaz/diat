@@ -1,6 +1,6 @@
 {
   "name": "diat-custom-addon",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Some addon utilities for diagnostics.",
   "main": "index.js",
   "files": [
