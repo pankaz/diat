@@ -1,6 +1,6 @@
 {
   "name": "diat-linux-perf",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "",
   "main": "linux-perf.js",
   "scripts": {
