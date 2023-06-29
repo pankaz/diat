@@ -1,6 +1,6 @@
 {
   "name": "diat-node-inspect",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "Node Inspect",
   "license": "MIT",
   "main": "lib/_inspect.js",
