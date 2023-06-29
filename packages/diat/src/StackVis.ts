@@ -1,4 +1,4 @@
-import * as stackvis from 'diat-stackvis-simplified/lib/stackvis'
+import * as stackvis from 'diat-custom-stackvis-simplified/lib/stackvis'
 import * as stream from 'stream'
 import * as fs from 'fs'
 import { logger } from './Logger'
@@ -56,7 +56,7 @@ export class StackVis {
     this.collapsePerfStream(readable, pass)
     this.collapsedToSvg(pass, writable)
 
-    await new Promise(resolve => {
+    await new Promise((resolve) => {
       writable.on('finish', () => {
         resolve()
       })

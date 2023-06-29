@@ -1,4 +1,4 @@
-import * as nodeInspect from 'diat-node-inspect/lib/_inspect.js'
+import * as nodeInspect from 'diat-custom-node-inspect/lib/_inspect.js'
 
 interface IOptions {
   host: string

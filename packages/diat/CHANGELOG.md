@@ -14,14 +14,14 @@ refactor: rename "scriptSource" "source"
 chore: remove redundant console.log
 
 ## 1.2.1
-fix: do not install diat-linux-perf on windows
+fix: do not install diat-custom-linux-perf on windows
 fix: inspect -a failed for a non 9229 port
 
 ## 1.2.0
-feat: support "attachConsole" in diat-node-inspect
-feat: support "setLogpoint" in diat-node-inspect
-feat: support "getScripts" in diat-node-inspect
-feat: support "scriptSource" in diat-node-inspect
+feat: support "attachConsole" in diat-custom-node-inspect
+feat: support "setLogpoint" in diat-custom-node-inspect
+feat: support "getScripts" in diat-custom-node-inspect
+feat: support "scriptSource" in diat-custom-node-inspect
 
 ## 1.1.6
 

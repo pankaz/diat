@@ -1,6 +1,6 @@
 import * as net from 'net'
 import { EventEmitter as Event } from 'events'
-import { TcpDetector } from 'diat-live-inspector'
+import { TcpDetector } from 'diat-custom-live-inspector'
 import { DiatError } from './Error'
 import { logger } from './Logger'
 
@@ -33,7 +33,7 @@ export class TcpProxy extends Event {
   private proxySocket = (socket: net.Socket) => {
     const { ignoreSocketErrors, targetHost, targetPort } = this.options
     // The process will exit if we don't listen to "error".
-    socket.on('error', err => {
+    socket.on('error', (err) => {
       if (ignoreSocketErrors) {
         return
       }
@@ -42,7 +42,7 @@ export class TcpProxy extends Event {
     socket.pause()
 
     const clientSocket = net.connect(targetPort, targetHost)
-    clientSocket.on('error', err => {
+    clientSocket.on('error', (err) => {
       logger.warn(err)
     })
 
@@ -117,7 +117,7 @@ export class TcpProxy extends Event {
       tcpDetector.destroy()
     }
 
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       server.close(() => {
         resolve()
       })

@@ -1,7 +1,7 @@
 import * as assert from 'assert'
 import * as fs from 'fs'
 import * as util from 'util'
-import { Communication } from 'diat-live-inspector'
+import { Communication } from 'diat-custom-live-inspector'
 import { snippets } from './Snippets'
 import { NodeInspectWrapper } from './NodeInspectWrapper'
 import { TcpProxy, ITcpProxyOptions } from './TcpProxy'
@@ -379,10 +379,8 @@ export class Comm {
       this.releaseWs()
     }
 
-    const {
-      host: targetHost,
-      port: targetPort,
-    } = await this.getMainThreadInspectorAddr(port)
+    const { host: targetHost, port: targetPort } =
+      await this.getMainThreadInspectorAddr(port)
     tcpProxyOptions.targetHost = targetHost
     tcpProxyOptions.targetPort = targetPort
 

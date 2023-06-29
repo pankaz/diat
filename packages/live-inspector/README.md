@@ -15,7 +15,7 @@ SIGUSR1 + inspector protocol
 ## 使用
 
 ```js
-const { Communication } = require('diat-live-inspector')
+const { Communication } = require('diat-custom-live-inspector')
 
 (async () => {
   const comm = new Communication({

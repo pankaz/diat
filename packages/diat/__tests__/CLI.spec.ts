@@ -26,7 +26,7 @@ describe('CLI', () => {
 
       const { togglePerfBasicProf_ } = require('../src/CLI')
       await expect(togglePerfBasicProf_()).rejects.toThrow(
-        'diat-linux-perf installation failed'
+        'diat-custom-linux-perf installation failed'
       )
     })
   })

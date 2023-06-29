@@ -1,4 +1,4 @@
-# diat-addon
+# diat-custom-addon
 
 ## API
 
