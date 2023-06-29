@@ -1,6 +1,6 @@
 {
   "name": "diat-custom-linux-perf",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "",
   "main": "linux-perf.js",
   "scripts": {
@@ -29,5 +29,6 @@
   "devDependencies": {
     "clang-format": "^1.2.3",
     "tap": "^12.6.5"
-  }
+  },
+  "gitHead": "40e4f07996b44e60200bce066fe27d1878048f59"
 }

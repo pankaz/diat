@@ -1,6 +1,6 @@
 {
   "name": "diat-custom-node-inspect",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Node Inspect",
   "license": "MIT",
   "main": "lib/_inspect.js",
@@ -31,5 +31,6 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "gitHead": "40e4f07996b44e60200bce066fe27d1878048f59"
 }

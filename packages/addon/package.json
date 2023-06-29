@@ -1,6 +1,6 @@
 {
   "name": "diat-custom-addon",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Some addon utilities for diagnostics.",
   "main": "index.js",
   "files": [
@@ -22,5 +22,6 @@
   "devDependencies": {
     "expect": "^24.9.0",
     "mocha": "^6.2.2"
-  }
+  },
+  "gitHead": "40e4f07996b44e60200bce066fe27d1878048f59"
 }
