@@ -1,5 +1,5 @@
 {
-  "name": "diat",
+  "name": "diat-custom",
   "version": "1.5.4",
   "description": "A CLI tool to help with diagnosing Node.js processes basing on inspector.",
   "main": "lib/index.js",
